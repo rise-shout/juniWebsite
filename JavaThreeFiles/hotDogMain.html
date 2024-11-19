@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <script src="myscripts.js"></script>
+  <head>
+    <div class='page'>
+	    <title/>Hot Dog Stand Project</title>
+	    <link rel='stylesheet' href='../style.css'/>
+			
+			<ul class = 'navul'>
+				
+      	<li class = 'navli'><a href='../jlThree.html'>⇦ Go Back </a></li>
+				
+				<li class = 'navli'><b>Hot Dog Stand Project </b></li>
+
+				<li class = 'navli'><a target="_blank" href = "https://replit.com/@Hannita/Hot-Dog-Stand-Starter-Queues-and-Stacks?v=1#Main.java">Starter Files </a></li>
+
+
+				<li class = 'navli'><a href='testable.html'>Interactive Example </a></li>
+
+				<li class = 'navli'><a href='videoDog.html'>How to Test </a></li>
+				
+				
+    </ul>
+			
+  	</div>
+
+  </head>
+  <body>
+		<h1 class = "labelWarning"> HINT: Go in order and pass off each file before moving on to the next one. Not everything needs to be working to pass off each test!</h1>
+		<div id = "leftbox">
+
+	    <h1 class = "label"> Test Input: </h1>
+
+			<div class='page' style="text-align:center;">
+
+
+				<button type="button" class="collapsible">Input 1</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/input1.txt" width = '90%' height = '700px' >
+				</div>
+
+				<button type="button" class="collapsible">Input 2</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/input2.txt" width = '90%' height = '700px' >
+				</div>
+
+				<button type="button" class="collapsible">Input 3</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/input3.txt" width = '90%' height = '700px' >
+				</div>
+
+				<button type="button" class="collapsible">Input 4</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/input4.txt" width = '90%' height = '700px' >
+				</div>
+				
+				
+			</div>
+			
+		</div>
+
+		<div id = "rightbox">
+
+	    <h1 class = "label">Test Output: </h1>
+
+			<div class='page' style="text-align:center;">
+
+				<button type="button" class="collapsible">Output 1</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/output1.txt" width = '90%' height = '700px' >
+				</div>
+
+				<button type="button" class="collapsible">Output 2</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/output2.txt" width = '90%' height = '700px' >
+				</div>
+				
+				<button type="button" class="collapsible">Output 3</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/output3.txt" width = '90%' height = '700px' >
+				</div>
+
+				<button type="button" class="collapsible">Output 4</button>
+				
+				<div class="content">
+	  			<embed src="filesForHotDog/output4.txt" width = '90%' height = '700px' >
+				</div>
+
+			</div>
+			
+    	
+			
+		</div>
+
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    } 
+		  });
+		}
+		</script>
+
+		
+  </body>
+</html>
