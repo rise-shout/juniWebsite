@@ -1,0 +1,32 @@
+Add:Prep 2
+Add:Stack
+Add:Prep 1
+Add:Stack
+Top:Stack
+Remove:Stack
+Remove:Prep
+Display Stack
+Size:Stack
+Platter
+Remove:Stack
+Remove:Prep
+Display:Stack
+Size:Stack
+Platter
+Add:Prep 4
+Add:Stack
+Add:Prep 3
+Add:Stack
+Top:Stack
+Remove:Stack
+Remove:Prep
+Display:Stack
+Size:Stack
+Platter
+Remove:Stack
+Remove:Prep
+Add:Stack
+Display:Stack
+Size:Stack
+Platter
+Quit

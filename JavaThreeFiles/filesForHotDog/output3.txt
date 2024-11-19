@@ -1,0 +1,31 @@
+OK
+OK
+OK
+OK
+2
+OK
+OK
+Queue 1
+1
+Platter 2
+OK
+OK
+Queue
+0
+Platter 2 1
+OK
+OK
+OK
+OK
+4
+OK
+OK
+Queue 3
+1
+Platter 2 1 4
+OK
+OK
+Preparation mat empty!
+Queue
+0
+Platter 2 1 4 3

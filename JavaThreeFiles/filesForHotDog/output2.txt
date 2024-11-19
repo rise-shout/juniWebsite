@@ -1,0 +1,31 @@
+OK
+OK
+OK
+OK
+1
+OK
+OK
+Stack 2
+1
+Platter 1
+OK
+OK
+Stack
+0
+Platter 1 2
+OK
+OK
+OK
+OK
+3
+OK
+OK
+Stack 4
+1
+Platter 1 2 3
+OK
+OK
+Preparation mat is empty!
+Stack
+0
+Platter 1 2 3 4

@@ -1,0 +1,32 @@
+Add:Prep 2
+Add:Queue
+Add:Prep 1
+Add:Queue
+Top:Queue
+Remove:Queue
+Remove:Prep
+Display:Queue
+Size:Queue
+Platter
+Remove:Queue
+Remove:Prep
+Display:Queue
+Size:Queue
+Platter
+Add:Prep 4
+Add:Queue
+Add:Prep 3
+Add:Queue
+Top:Queue
+Remove:Queue
+Remove:Prep
+Display:Queue
+Size:Queue
+Platter
+Remove:Queue
+Remove:Prep
+Add:Queue
+Display:Queue
+Size:Queue
+Platter
+Quit

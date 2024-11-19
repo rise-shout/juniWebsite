@@ -1,0 +1,14 @@
+Add:Prep 1
+Remove:Prep
+Add:Prep 2
+Remove:Prep
+Add:Prep 3
+Remove:Prep
+Add:Prep 4
+Remove:Prep
+Platter
+Size:Platter
+Remove:Prep
+Platter
+Size:Platter
+Quit

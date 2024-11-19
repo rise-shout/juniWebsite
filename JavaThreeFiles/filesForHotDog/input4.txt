@@ -1,0 +1,87 @@
+Add:Prep 1
+Add:Queue
+Add:Prep 2
+Add:Queue
+Add:Prep 3
+Add:Queue
+Add:Prep 4
+Add:Queue
+Add:Prep 5
+Add:Queue
+Add:Prep 6
+Add:Queue
+Add:Prep 7
+Add:Queue
+Add:Prep 8
+Add:Queue
+Add:Prep 9
+Add:Queue
+Size:Queue
+Display:Queue
+Add:Prep 10
+Add:Stack
+Add:Prep 11
+Add:Stack
+Add:Prep 12
+Add:Stack
+Add:Prep 13
+Add:Stack
+Add:Prep 14
+Add:Stack
+Add:Prep 15
+Add:Stack
+Add:Prep 16
+Add:Stack
+Add:Prep 17
+Add:Stack
+Add:Prep 18
+Add:Stack
+Size:Stack
+Display:Stack
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Remove:Prep
+Remove:Queue
+Size:Platter
+Platter
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Remove:Prep
+Remove:Stack
+Size:Stack
+Display:Stack
+Size:Queue
+Display:Queue
+Size:Platter
+Platter
+Quit
