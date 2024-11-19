@@ -1,0 +1,6 @@
+Type in your message to encrypt: spiderman
+Type in the key you wish to use: 17
+jgzuvidre
+Type in your message to decrypt: jgzuvidre
+Type in the decryption key: 17
+spiderman

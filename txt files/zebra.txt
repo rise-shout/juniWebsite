@@ -1,0 +1,6 @@
+Type in your message to encrypt: zebra
+Type in the key you wish to use: 65
+mroen
+Type in your message to decrypt: mroen
+Type in the decryption key: 65
+zebra

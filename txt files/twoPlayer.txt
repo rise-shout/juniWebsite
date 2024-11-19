@@ -1,0 +1,188 @@
+Welcome to Conway's 2-Player Game of Life. We start 
+with a 10x10 grid of cells, either alive or dead. 
+Here are the rules:
+
+Each player starts with a square. Each turn they 
+get to pick a position to grow a cell and pick a 
+position to kill an opponent cell. Each generation 
+passes by following these rules:
+	1) Any live cell with fewer than two live neighbors 
+	   dies, as if by underpopulation.
+	2) Any live cell with two or three live neighbors 
+	   lives on to the next generation.
+	3) Any live cell with more than three live neighbors 
+	   dies, as if by overpopulation.
+	4) Any dead cell with exactly three live neighbors 
+	   becomes a live cell, as if by reproduction.
+     
+Press Enter to continue:
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - - - - - - - - - - 
+3 - - - - - - - - - - 
+4 O O - - - - - X X - 
+5 - O O - - - X X - - 
+6 - O - - - - - X - - 
+7 - - - - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+Press Enter to start: 
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - - - - - - - - - - 
+3 - - - - - - - - - - 
+4 O O O - - - X X X - 
+5 - - O - - - X - - - 
+6 - O O - - - X X - - 
+7 - - - - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+It's Player O's Turn.
+
+Please enter the row of the cell you wish to add: 3
+Please enter the column of the cell you wish to add: 1
+Please enter the row of the cell you wish to delete: 4
+Please enter the column of the cell you wish to delete: 6
+
+Your new grid
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - - - - - - - - - - 
+3 - O - - - - - - - - 
+4 O O O - - - - X X - 
+5 - - O - - - X - - - 
+6 - O O - - - X X - - 
+7 - - - - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+Player O has 7 cells alive
+Player X has 5 cells alive
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - - - - - - - - - - 
+3 O O O - - - - - - - 
+4 O - O - - - - X - - 
+5 O - - O - - X - X - 
+6 - O O - - - X X - - 
+7 - - - - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+It's Player X's Turn.
+
+Please enter the row of the cell you wish to add: 7
+Please enter the column of the cell you wish to add: 0
+Please enter the row of the cell you wish to delete: 6
+Please enter the column of the cell you wish to delete: 6
+
+Your new grid
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - - - - - - - - - - 
+3 O O O - - - - - - - 
+4 O - O - - - - X - - 
+5 O - - O - - X - X - 
+6 - O O - - - - X - - 
+7 X - - - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+Player O has 9 cells alive
+Player X has 5 cells alive
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - O - - - - - - - - 
+3 O - O - - - - - - - 
+4 O - O O - - - X - - 
+5 O - - O - - X - X - 
+6 O O O - - - - X - - 
+7 - O - - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+It's Player O's Turn.
+
+Please enter the row of the cell you wish to add: 2
+Please enter the column of the cell you wish to add: 3
+Please enter the row of the cell you wish to delete: 4
+Please enter the column of the cell you wish to delete: 7
+
+Your new grid
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - O - O - - - - - - 
+3 O - O - - - - - - - 
+4 O - O O - - - - - - 
+5 O - - O - - X - X - 
+6 O O O - - - - X - - 
+7 - O - - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+Player O has 13 cells alive
+Player X has 3 cells alive
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - - - - - - - - - - 
+2 - O O - - - - - - - 
+3 O - - - - - - - - - 
+4 O - O O - - - - - - 
+5 O - - O - - - X - - 
+6 O - O - - - - X - - 
+7 O O O - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+It's Player X's Turn.
+
+Please enter the row of the cell you wish to add: 1
+Please enter the column of the cell you wish to add: 0
+Please enter the row of the cell you wish to delete: 5
+Please enter the column of the cell you wish to delete: 7
+
+Your new grid
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 X - - - - - - - - - 
+2 - O O - - - - - - - 
+3 O - - - - - - - - - 
+4 O - O O - - - - - - 
+5 O - - O - - - - - - 
+6 O - O - - - - X - - 
+7 O O O - - - - - - - 
+8 - - - - - - - - - - 
+9 - - - - - - - - - - 
+
+Player O has 13 cells alive
+Player X has 2 cells alive
+
+  0 1 2 3 4 5 6 7 8 9
+0 - - - - - - - - - - 
+1 - O - - - - - - - - 
+2 O O - - - - - - - - 
+3 O - - O - - - - - - 
+4 O - O O - - - - - - 
+5 O - - O - - - - - - 
+6 O - O O - - - - - - 
+7 O - O - - - - - - - 
+8 - O - - - - - - - - 
+9 - - - - - - - - - - 
+Player O has won the game

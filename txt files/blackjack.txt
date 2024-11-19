@@ -1,0 +1,73 @@
+Welcome to the game of Blackjack! In this game, you will be dealt two cards to start. Your goal is to get as close to 21 as possible without going over - or busting! In this simple version of Blackjack, we only use the cards 2 through 11 (Ace).
+
+The dealer will first ask you to hit (take another card) or stay. As long as you don't bust, once you decide to stay, the dealer will then play his hand. The dealer always has to hit until his hand is at least 17. Whoever has the better hand at the end wins!
+
+Press Enter to start playing.
+
+Here is your hand:
+[6, 3]
+Type in H to hit or S to stay: h
+Invalid input.
+
+Type in H to hit or S to stay: H
+Here is your hand:
+[6, 3, 3, 2]
+Type in H to hit or S to stay: H
+Here is your hand:
+[6, 3, 3, 2, 10]
+You busted! :(
+
+Press Enter to play again!
+
+Here is your hand:
+[4, 10]
+Type in H to hit or S to stay: H
+Here is your hand:
+[4, 10, 6]
+Type in H to hit or S to stay: S
+Dealer's turn!
+
+Here is the dealer's hand:
+[6, 6]
+The dealer hit. Here's the dealer's new hand:
+[6, 6, 6]
+The dealer has finalized his hand.
+You win! :)
+
+Press Enter to play again!
+
+Here is your hand:
+[11, 5]
+Type in H to hit or S to stay: S
+Dealer's turn!
+
+Here is the dealer's hand:
+[5, 11]
+The dealer hit. Here is the dealer's new hand:
+[5, 11, 10]
+The dealer busted! You win! :)
+
+Press Enter to play again!
+
+Here is your hand:
+[10, 3]
+Type in H to hit or S to stay: S
+Dealer's turn!
+
+Here is the dealer's hand:
+[8, 5]
+The dealer hit. Here is the dealer's new hand:
+[8, 5, 5]
+The dealer has finalized his hand.
+The dealer won. :(
+
+Press Enter to play again!
+
+Here is your hand:
+[11, 4]
+Type in H to hit or S to stay: H
+Here is your hand:
+[11, 4, 6]
+Blackjack! You win! :D
+
+Press Enter to play again

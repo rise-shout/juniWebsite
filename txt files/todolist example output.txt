@@ -1,0 +1,55 @@
+Welcome to your todo list!
+
+What would you like to do with your todo list?
+   1. Add a task
+   2. Remove a task
+   3. Exit
+Type in the number here: 1
+
+Please type in the task you'd like to add: make apple cider
+
+Here's your updated list:
+1. make apple cider
+
+What would you like to do with your todo list?
+   1. Add a task
+   2. Remove a task
+   3. Exit
+Type in the number here: 1
+
+Please type in the task you'd like to add: nap
+
+Here's your updated list:
+1. make apple cider
+2. nap
+
+What would you like to do with your todo list?
+   1. Add a task
+   2. Remove a task
+   3. Exit
+Type in the number here: 1
+
+Please type in the task you'd like to add: bake cookies
+
+Here's your updated list:
+1. make apple cider
+2. nap
+3. bake cookies
+
+What would you like to do with your todo list?
+   1. Add a task
+   2. Remove a task
+   3. Exit
+Type in the number here: 2
+
+Please type in the task you'd like to remove: 2
+
+Here's your updated list:
+1. make apple cider
+2. bake cookies
+
+What would you like to do with your todo list?
+   1. Add a task
+   2. Remove a task
+   3. Exit
+Type in the number here: 3

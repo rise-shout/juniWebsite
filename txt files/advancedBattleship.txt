@@ -1,0 +1,169 @@
+Welcome to Battleship! Let's start by setting up the game.
+
+How tall should the board be? 5
+How wide should the board be? 8
+
+How many two-unit ships should each player have? 2
+How many three-unit ships should each player have? 1
+How many four-unit ships should each player have? 1
+
+Okay, it's time for Player 1 to set up their ships! 
+You will be asked to type in coordinates for each of your ships.
+
+Now entering coordinates for your 2 2-unit ships...
+Pick a row: 0
+Pick a column: 0
+Pick a row: 0
+Pick a column: 1
+
+Pick a row: 3
+Pick a column: 3
+Pick a row: 3
+Pick a column: 4
+
+You've completed placing your 2-unit ships. 
+Here is what your board currently looks like:
+  0 1 2 3 4 5 6 7
+0 x x - - - - - -
+1 - - - - - - - -
+2 - - - - - - - -
+3 - - - x x - - -
+4 - - - - - - - -
+
+Now entering coordinates for your 1 3-unit ships...
+Pick a row: 2
+Pick a column: 2
+Pick a row: 2
+Pick a column: 3
+Pick a row: 2
+Pick a column: 4
+
+You've completed placing your 3-unit ships. 
+Here is what your board currently looks like:
+  0 1 2 3 4 5 6 7
+0 x x - - - - - -
+1 - - - - - - - -
+2 - - x x x - - -
+3 - - - x x - - -
+4 - - - - - - - -
+
+Now entering coordinates for your 1 4-unit ships...
+Pick a row: 0
+Pick a column: 7
+Pick a row: 1
+Pick a column: 7
+Pick a row: 2
+Pick a column: 7
+Pick a row: 3
+Pick a column: 7
+
+You've completed placing your 4-unit ships. 
+Here is what your board currently looks like:
+  0 1 2 3 4 5 6 7
+0 x x - - - - - x
+1 - - - - - - - x
+2 - - x x x - - x
+3 - - - x x - - x
+4 - - - - - - - -
+
+Okay, it's time for Player 2 to set up their ships! 
+You will be asked to type in coordinates for each of your ships.
+
+Now entering coordinates for your 2 2-unit ships...
+Pick a row: 1
+Pick a column: 2
+Pick a row: 1
+Pick a column: 1
+
+Pick a row: 4
+Pick a column: 3
+Pick a row: 3
+Pick a column: 3
+
+You've completed placing your 2-unit ships. 
+Here is what your board currently looks like:
+  0 1 2 3 4 5 6 7
+0 - - - - - - - -
+1 - x x - - - - -
+2 - - - - - - - -
+3 - - - x - - - -
+4 - - - x - - - -
+
+Now entering coordinates for your 1 3-unit ships...
+Pick a row: 0
+Pick a column: 5
+Pick a row: 1
+Pick a column: 5
+Pick a row: 2
+Pick a column: 5 
+
+You've completed placing your 3-unit ships. 
+Here is what your board currently looks like:
+  0 1 2 3 4 5 6 7
+0 - - - - - x - -
+1 - x x - - x - -
+2 - - - - - x - -
+3 - - - x - - - -
+4 - - - x - - - -
+
+Now entering coordinates for your 1 4-unit ships...
+Pick a row: 0
+Pick a column: 8
+
+These coordinates are out of bounds!
+
+Pick a row: 4
+Pick a column: 7
+Pick a row: 3
+Pick a column: 7
+Pick a row: 2
+Pick a column: 7
+Pick a row: 1
+Pick a column: 7
+
+You've completed placing your 4-unit ships. 
+Here is what your board currently looks like:
+  0 1 2 3 4 5 6 7
+0 - - - - - x - -
+1 - x x - - x - x
+2 - - - - - x - x
+3 - - - x - - - x
+4 - - - x - - - x
+
+The game begins! 
+
+Player 1, here's your board:
+  0 1 2 3 4 5 6 7
+0 - - - - - - - -
+1 - - - - - - - -
+2 - - - - - - - -
+3 - - - - - - - -
+4 - - - - - - - -
+
+Player 1, pick a row: 1
+Player 1, pick a column: 1
+It's a hit!
+
+Player 2, here's your board:
+  0 1 2 3 4 5 6 7
+0 - - - - - - - -
+1 - - - - - - - -
+2 - - - - - - - -
+3 - - - - - - - -
+4 - - - - - - - -
+
+Player 2, pick a row: 1
+Player 2, pick a column: 1
+It's a miss!
+
+Player 1, here's your board:
+  0 1 2 3 4 5 6 7
+0 - - - - - - - -
+1 - x - - - - - -
+2 - - - - - - - -
+3 - - - - - - - -
+4 - - - - - - - -
+
+Player 1, pick a row: 0
+Player 1, pick a column: 0
+It's a miss!

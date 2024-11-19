@@ -1,0 +1,76 @@
+Welcome to the bank! Please log in.
+Username: steveRogers
+Password: america
+
+We don't recognize your username. Please try again.
+
+Welcome to the bank! Please log in.
+Username: janesmith
+Password: helloWorld
+
+Your password is incorrect. Please try again.
+
+Welcome to the bank! Please log in.
+Username:janesmith
+Password: secret123
+
+Welcome janesmith! You currently have $0 in your account. What would you like to do?
+	1. Make a deposit
+	2. Make a withdrawal
+	3. Change your password
+	4. Log out
+1
+How much would you like to deposit? 500
+
+Welcome janesmith! You currently have $500 in your account. What would you like to do?
+	1. Make a deposit
+	2. Make a withdrawal
+	3. Change your password
+	4. Log out
+2
+How much would you like to withdraw? 375
+
+Welcome janesmith! You currently have $125 in your account. What would you like to do?
+	1. Make a deposit
+	2. Make a withdrawal
+	3. Change your password
+	4. Log out
+3
+To change your password, please type in your old password: hogwarts
+
+Your old password does not match the password in our records.
+
+Welcome janesmith! You currently have $125 in your account. What would you like to do?
+	1. Make a deposit
+	2. Make a withdrawal
+	3. Change your password
+	4. Log out
+3
+To change your password, plase type in your old password: secret123
+Please type in your new password: lemon
+
+Your password has been changed successfully!
+
+Welcome janesmith! You currently have $125 in your account. What would you like to do?
+	1. Make a deposit
+	2. Make a withdrawal
+	3. Change your password
+	4. Log out
+4
+Welcome to the bank! Please log in.
+Username: janesmith
+Password: secret123
+
+Your password is incorrect. Please try again.
+
+Welcome to the bank! Please log in.
+Username: janesmith
+Password: lemon
+
+Welcome janesmith! You currently have $125 in your account. What would you like to do?
+	1. Make a deposit
+	2. Make a withdrawal
+	3. Change your password
+	4. Log out
+
+//END PROGRAM HERE

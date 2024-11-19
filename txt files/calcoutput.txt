@@ -1,0 +1,47 @@
+Welcome to the Python Calculator. These are the operations we offer:
+Addition: +
+Subtraction: -
+Multiplication: *
+Division: /
+Modulus: %
+Please enter the operator of the function you would like to use: +
+Number 1: 12
+Number 2: 34
+Result: 46
+
+Would you like to perform another operation? Enter 'Y' for yes or 'N' for no: Y
+
+Please enter the operator of the function you would like to use: -
+Number 1: 12
+Number 2: 34
+Result: -22
+
+Would you like to perform another operation? Enter 'Y' for yes or 'N' for no: Y
+
+Please enter the operator of the function you would like to use: *
+Number 1: 12
+Number 2: 34
+Result: 408
+
+Would you like to perform another operation? Enter 'Y' for yes or 'N' for no: Y
+
+Please enter the operator of the function you would like to use: /
+Number 1: 12
+Number 2: 34
+Result: 0.35294117647058826
+
+Would you like to perform another operation? Enter 'Y' for yes or 'N' for no: Y
+
+Please enter the operator of the function you would like to use: %
+Number 1: 12
+Number 2: 34
+Result: 12
+
+Would you like to perform another operation? Enter 'Y' for yes or 'N' for no: Y
+
+Please enter the operator of the function you would like to use: &
+Number 1: 12
+Number 2: 34
+Invalid Operator
+
+Would you like to perform another operation? Enter 'Y' for yes or 'N' for no: N

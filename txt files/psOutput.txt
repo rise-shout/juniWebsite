@@ -1,0 +1,45 @@
+#1: [2,4,6]
+
+#2: ['apple', 'ant']
+
+#3: 3
+
+#4: 5
+
+#5: 2
+
+#6: 0
+    1
+    4
+    9
+    16
+    25
+    36
+    49
+    64
+    81
+    100
+
+#7: 6
+
+#8: 9
+
+#9: 12
+
+#10 FIRST TIME: 45
+#10 SECOND TIME: 24
+
+#11 FIRST TIME: False
+#11 SECOND TIME: True
+
+#12 FIRST TIME: [2]
+#12 SECOND TIME: [5,4]
+#12 THIRD TIME: [1,2,3]
+
+#13: olleh
+
+#14: 4
+
+#15: 2
+
+#16: [4,2,3,1]

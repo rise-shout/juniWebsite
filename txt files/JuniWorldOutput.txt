@@ -1,0 +1,97 @@
+Welcome to Juni World! We have a large selection of rides for you to ride! We'll even help you keep track of how much time you have left in the park after each ride!
+
+Here's how much time you have left in Juni World:
+Remaining hours: 6
+Remaining minutes: 0
+
+Here are the rides and their wait times:
+Tower of Turtles: 90 minutes
+String Mountain: 130 minutes
+Debug Track: 5 minutes
+Concatenation Carousel: 100 minutes
+Cinderella Casting: 90 minutes
+Magic For Loop: 10 minutes
+Pythons of the Carribean: 30 minutes
+
+Enter the ride you wish to go on next: Debug Track
+
+That was awesome! You rode the Debug Track
+
+Here's how much time you have left in Juni World:
+Remaining hours: 5
+Remaining minutes: 55
+
+Here are the rides and their wait times:
+Tower of Turtles: 90 minutes
+String Mountain: 130 minutes
+Debug Track: 5 minutes
+Concatenation Carousel: 100 minutes
+Cinderella Casting: 90 minutes
+Magic For Loop: 10 minutes
+Pythons of the Carribean: 30 minutes
+
+Enter the ride you wish to go on next: String Mountain
+
+That was awesome! You rode the String Mountain
+
+Here's how much time you have left in Juni World:
+Remaining hours: 3
+Remaining minutes: 45
+
+Here are the rides and their wait times:
+Tower of Turtles: 90 minutes
+String Mountain: 130 minutes
+Debug Track: 5 minutes
+Concatenation Carousel: 100 minutes
+Cinderella Casting: 90 minutes
+Magic For Loop: 10 minutes
+Pythons of the Carribean: 30 minutes
+
+Enter the ride you wish to go on next: Tower of Turtles
+
+That was awesome! You rode the Tower of Turtles
+
+Here's how much time you have left in Juni World:
+Remaining hours: 2
+Remaining minutes: 15
+
+Here are the rides and their wait times:
+Tower of Turtles: 90 minutes
+String Mountain: 130 minutes
+Debug Track: 5 minutes
+Concatenation Carousel: 100 minutes
+Cinderella Casting: 90 minutes
+Magic For Loop: 10 minutes
+Pythons of the Carribean: 30 minutes
+
+Enter the ride you wish to go on next: Recursion Roller Coaster
+
+Sorry, that ride isn't part of the list. Please enter the ride you wish to go on next: Concatenation Carousel
+
+That was awesome! You rode the Concatenation Carousel
+
+Here's how much time you have left in Juni World:
+Remaining hours: 0
+Remaining minutes: 35
+
+Here are the rides and their wait times:
+Tower of Turtles: 90 minutes
+String Mountain: 130 minutes
+Debug Track: 5 minutes
+Concatenation Carousel: 100 minutes
+Cinderella Casting: 90 minutes
+Magic For Loop: 10 minutes
+Pythons of the Carribean: 30 minutes
+
+Enter the ride you wish to go on next: String Mountain
+
+That was awesome! You rode the String Mountain
+
+Wow! That was a great day. Here's a list of all the rides you visited today, in order:
+Debug Track
+String Mountain
+Tower of Turtles
+Concatenation Carousel
+String Mountain
+
+Thanks for visiting Juni World! Come back again soon!
