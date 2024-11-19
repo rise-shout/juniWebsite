@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <script src="myscripts.js"></script>
-  <head>
-    <div class='page'>
-	    <title/>Python Level 1 Examples</title>
-	    <link rel='stylesheet' href='style.css'/>
-			<ul class = 'navul'>
-      	<li class = 'navli'><a href='index.html'>⇦ Go Back </a></li>
-				<li class = 'navli'><b>Python Level 1 </b></li>
-    </ul>
-			
-  	</div>
-
-  </head>
-	
-  <body>
-		<div class='page' style="text-align:center;">
-		
-
-		<a class="link-button" href="symbol.html">Symbol Practice</a>
 
 
-		
+	<html>
 
-		</div>
-	
-  </body>
+    <head>
+        <script type="text/javascript" src="/path/to/brython.js"></script>
+    </head>
+
+    <body>
+
+        <script type="text/python">
+        from browser import document, alert
+
+        def echo(event):
+            alert(document["zone"].value)
+
+        document["mybutton"].bind("click", echo)
+        </script>
+
+        <input id="zone"><button id="mybutton">click !</button>
+
+    </body>
+
+</html>
 
