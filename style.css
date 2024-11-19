@@ -1,0 +1,265 @@
+/* general code */
+
+body {
+  color:#000000;
+  background-color:#fffdf6;
+}
+
+h1 {
+  font-size:45px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size:16px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+
+div {
+  overflow:auto;
+}
+
+.october {
+  background-color: rgb(216, 162, 61);
+}
+
+.november {
+  background-color: rgb(241, 211, 154);
+}
+
+.december {
+  background-color: rgb(93, 132, 150);
+}
+
+.label {
+  background-color: rgb(216, 162, 61);
+  font-size:35px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+	top: 10px;
+	flex-wrap:wrap;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  border-top-right-radius:3em;
+  border-bottom-right-radius:3em;
+  border-top-left-radius:3em;
+  border-bottom-left-radius:3em;
+}
+.labelWarning {
+  background-color: rgb(216, 70, 59);
+  font-size: 20px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+	top: 10px;
+	flex-wrap:wrap;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  border-top-right-radius:3em;
+  border-bottom-right-radius:3em;
+  border-top-left-radius:3em;
+  border-bottom-left-radius:3em;
+}
+
+
+.link-button {
+  background-color: rgb(101, 151, 160);
+  color: white;
+  padding: 25px 25px;
+  font-size:30px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+}
+
+.link-button:hover {
+  background-color: #56865c;
+}
+
+/*embeds*/
+iframe {
+  padding: 15px 25px;
+  width: 75%;
+  height: 700px;
+  margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    border-style:none;
+}
+
+video {
+  padding: 30px 25px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+/*split page*/
+#leftbox {
+  float:left; 
+  
+  width:50%;
+  height:90%
+}
+#rightbox{
+  float:left; 
+  
+  width:50%;
+  height:90%;
+}
+
+/*welcome*/
+
+.home {
+  border: 2px solid #2514c200;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-grid {
+  border: 2px solid #22c21400;
+  width: 1500px;
+  height:400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.home-grid-item{
+  justify-content: center;
+  border: 15px solid #c2141400;
+  height: 380px;
+  color:rgb(104, 89, 98);
+
+}
+
+/* collapsable code */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #6597a0;
+  color: #ffffff;
+  cursor: pointer;
+  width: 90%;
+  border: none;
+  text-align: center;
+  outline: none;
+	padding: 25px 25px;
+  font-size:20px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #56865c;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #56865c;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* navbar code*/
+
+.navul {
+  flex-wrap:wrap;
+  background-color: rgb(14, 80, 98);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top-right-radius:3em;
+  border-bottom-right-radius:3em;
+  border-top-left-radius:3em;
+  border-bottom-left-radius:3em;
+}
+
+.navli {
+  float: left;
+ 
+}
+
+.navli a {
+  flex-wrap:wrap;
+  display: block;
+  font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 40px 26px;
+  text-decoration: none;
+}
+
+.navli a:hover  {
+  background-color: #56865c;
+}
+
+.navli b {
+  flex-wrap:wrap;
+  display: block;
+  font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+	
+}
+
+/*footer code*/
+
+.footer {
+  color: #aaaaaa;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+
+.footer a:link {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+.footer a:visited {
+  color: #aaaaaa;
+}
+.footer a:hover {
+  color:#eb72bd;
+  text-decoration: underline;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .page {
+  display: flex;
+  flex-wrap: wrap;
+  }
+}
+
