@@ -1,93 +1,29 @@
 <!DOCTYPE html>
 
+<html>
+  <script src="myscripts.js"></script>
+  <head>
+    <div class='page'>
+	    <title/>Python Level 1 Examples</title>
+	    <link rel='stylesheet' href='style.css'/>
+			<ul class = 'navul'>
+      	<li class = 'navli'><a href='index.html'>⇦ Go Back </a></li>
+				<li class = 'navli'><b>Python Level 1 </b></li>
+    </ul>
+			
+  	</div>
 
-	<html>
+  </head>
+	
+  <body>
+		<div class='page' style="text-align:center;">
+		
 
-    <head>
-        <script type="text/javascript" src="/path/to/brython.js"></script>
-    </head>
-
-    <body>
-
-        <script type="text/python">
-        from browser import document, alert
-
-        def echo(event):
-            alert(document["zone"].value)
-
-        document["mybutton"].bind("click", echo)
-
-
-		import random
-import time
-
-input("We're going to practice our symbols! \n\nI will say the name of a symbol, and you'll type in the symbol then press enter.\n\nThere will be 10 rounds. \n\nClick on the screen and press enter when you're ready!")
-
-print("\nHINT: For parenthesis, brackets, and quotation marks, enter them both with no spaces \n")
-
-symbols = {"a set of parenthesis":"()", "a semicolon":";","a colon":":","a set of brackets":"[]","quotation marks":"\"\"","curly braces":"{}"}
-
-symbolsKeyList = []
-for key in symbols:
-  symbolsKeyList.append(key)
-
-randomSelectionList = []
-for i in range(10):
-  randomSelectionList.append(symbolsKeyList[random.randint(0,len(symbolsKeyList)-1)])
-
-numCorrect = 0
-
-for item in randomSelectionList:
-  print()
-  usrAnswer = input("Type in " + item +": ")
-  if usrAnswer == symbols[item]:
-    print("\nCorrect! Way to go!")
-    numCorrect += 1
-  else:
-    for key in symbols:
-      if symbols[key] == usrAnswer:
-        print("\nNot quite, that is a symbol but it has a different name.")
-        break
-    else:
-      print("\nThat's not quite right. Make sure that you didn't put in any extra spaces")
-
-print("\nAll Done! Here is your score: " + str(numCorrect) + "/10.")
-
-time.sleep(1)
-
-answerKey = "all correct"
-print()
-
-if numCorrect == 10:
-  print("Wow! 100% Correct! Way to go! Screenshot or take a picture of the screen so that we can celebrate next class :)")
-elif numCorrect > 7:
-  answerKey = input("You're so so close to 100%! Would you like to see the correct answers? (Y/N)")
-elif numCorrect > 5:
-  answerKey = input("You're getting there! Would you like to see the correct answers? (Y/N)")
-else:
-  answerKey = input("Great effort! Practice makes perfect. Would you like to see the correct answers? (Y/N)")
-
-while answerKey != "Y" and answerKey != "y" and answerKey != "N" and answerKey != "n" and answerKey != "all correct":
-  answerKey = input("\n Type in Y for yes, you want to see the answer key or N for no you don't want to the see the answer key: ")
+		<a class="link-button" href="symbol.html">Symbol Practice</a>
 
 
-if answerKey == "all correct":
-  print("\n Since you got them all right you can stop here. But if you want extra practice, click run and try again!")
+		
 
-elif answerKey == "Y" or answerKey == "y":
-  print("\nHere is the answer key:")
-  for key in symbols:
-    time.sleep(1)
-    print(key + " -----> " + symbols[key])
-  print("\nAlright, ready to try again? To clear the screen and try again, please press the run button again.")
-
-else: 
-  print("\nAlright, ready to try again? To clear the screen and try again, please press the run button.")
-        </script>
-
-        <input id="zone"><button id="mybutton">click !</button>
-
-    </body>
-
-</html>
-
+		</div>
+	
+  </body>
